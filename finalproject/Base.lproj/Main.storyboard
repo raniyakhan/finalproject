@@ -162,17 +162,17 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="1713"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <attributedString key="attributedText">
-                                <fragment content="    ">
+                                <fragment content="  ">
                                     <attributes>
                                         <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         <font key="NSFont" metaFont="system" size="19"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
                                     </attributes>
                                 </fragment>
-                                <fragment content="Tips for Safe Protesting  ">
+                                <fragment content="  Tips for Safe Protesting  ">
                                     <attributes>
                                         <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <font key="NSFont" size="36" name="AvenirNext-Regular"/>
+                                        <font key="NSFont" metaFont="system" size="37"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
                                     </attributes>
                                 </fragment>
@@ -558,7 +558,7 @@ CiAgICAgICAgICAgICAgIAoKA
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="13b-MF-kyk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1044.9275362318842" y="679.6875"/>
+            <point key="canvasLocation" x="938" y="680"/>
         </scene>
     </scenes>
     <resources>
