@@ -57,7 +57,7 @@
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BU0-W2-sNY" kind="show" id="WvJ-c0-2MM"/>
+                                    <segue destination="nJL-qw-Pad" kind="show" id="q7j-sw-QTe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm1-1r-SRA">
@@ -150,21 +150,415 @@
             </objects>
             <point key="canvasLocation" x="1822" y="94"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="S5K-FS-2OJ">
+        <!--Table View Controller-->
+        <scene sceneID="Zn8-xl-eJk">
             <objects>
-                <viewController id="BU0-W2-sNY" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="moJ-Eh-SgH">
+                <tableViewController id="nJL-qw-Pad" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="XPa-16-Co8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="ulk-4s-MDJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="ypI-o7-nNz"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YII-H4-xsy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l99-EK-nRN">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1713"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <attributedString key="attributedText">
+                                <fragment content="    ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Tips for Safe Protesting  ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" size="36" name="AvenirNext-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content" base64-UTF8="YES">
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg
+</string>
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="    1. ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Avoid direct police contact">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">. Whenever possible, avoid contact with police, military, or counter-protestors. Follow instructions from event organizers about where to protest and when to move.
+</string>
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="    2. ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="13" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Maintain physical distancing and do not have close physical contact with others">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="13" tighteningFactorForTruncation="0.0"/>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">. Try not to hold hands, hug, or have extended face-to-face conversations with others.
+</string>
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="13" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="    3. ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="17" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Do not run">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="17" tighteningFactorForTruncation="0.0"/>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=". Avoid running to close a gap or move away unless absolutely necessary. Move slowly as a group.      ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="17" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="  ">
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="17" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="17" tighteningFactorForTruncation="0.0"/>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">    4. Use ONLY water to treat pepper spray.
+</string>
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="17" tighteningFactorForTruncation="0.0"/>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="     5. ">
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Protect your cell phone privacy">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">. Lock your phone, turn of thumb and/or face lock, disable location services on all your apps, turn off notifications on your home screen, disable Siri/Alexa.                                                                                 </string>
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="     6. ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">Protect your identity and the identity of others. Do not post pictures of people’s faces on social media. If you do post pictures, make sure faces are covered or obscured and you do not post until you are home. </string>
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="      7. ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <mutableString key="content">Use white privilege to protect others. These are protests opposed to police violence against Black people. If you are white, put yourself between police and Black and Brown people if they are exposed to police repression. You can also film arrests and police activity. </mutableString>
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <mutableString key="content">      8. Be aware that undercover police may be in the crowd. Be wary of individuals who forcefully advocate for violence, especially when the crowd or organizers seem peaceful, or try to encourage others to join them in violent action. Don’t engage with them unless absolutely necessary. Undercover officers often wear colored armbands to identify themselves to their colleagues (the color varies from day to day).
+      9. </mutableString>
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <mutableString key="content">If you are protesting after curfew, there is an increased risk of arrest or bodily injury. The police have been using “kettling” tactics to surround protesters at intersections or in parks shortly before or during curfew, then charging at the crowd and arresting demonstrators en masse once the curfew is in effect. If you are in a “kettle,” stay calm. If police let you through, avoid running and walk to safety, ideally in a group. </mutableString>
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content" base64-UTF8="YES">
+CiAgICAgICAgICAgICAgIAoKA
+</string>
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="21.159999847412109" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.10588235408067703" green="0.10980392247438431" blue="0.11764705926179886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="        ">
+                                    <attributes>
+                                        <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="19"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="2" headIndent="36" minimumLineHeight="21.159999847412109" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops>
+                                                <textTab alignment="left" location="11">
+                                                    <options/>
+                                                </textTab>
+                                                <textTab alignment="natural" location="36">
+                                                    <options/>
+                                                </textTab>
+                                            </tabStops>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <connections>
+                            <outlet property="dataSource" destination="nJL-qw-Pad" id="MFg-Dl-PSX"/>
+                            <outlet property="delegate" destination="nJL-qw-Pad" id="rd6-8M-ZdR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="idh-8V-CjA"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13b-MF-kyk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1045" y="636"/>
+            <point key="canvasLocation" x="1044.9275362318842" y="679.6875"/>
         </scene>
     </scenes>
     <resources>
