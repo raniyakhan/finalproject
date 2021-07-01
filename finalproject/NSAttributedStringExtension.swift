@@ -1,5 +1,5 @@
 //
-//  HelpHome.swift
+//  NSAttributedStringExtension.swift
 //  finalproject
 //
 //  Created by Maryam Mohseni on 7/1/21.
@@ -15,4 +15,3 @@ extension NSAttributedString {
         return attributedString
     }
 }
-

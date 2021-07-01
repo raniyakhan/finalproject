@@ -10,7 +10,8 @@ import UIKit
 class HomeViewController: UIViewController {
    
     
-    @IBOutlet weak var robertCasey: UITextField!
+  
+    @IBOutlet weak var robertCasey: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +20,10 @@ class HomeViewController: UIViewController {
        
     }
     func updateTextView() {
-        let path = "https://www.casey.senate.gov/contact/share"
+        let path = "https://www.casey.senate.gov/contact" 
         let text = robertCasey.text ?? ""
         let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "contact")
         robertCasey.attributedText = attributedString
     }
-}
-
+} 
+ 

@@ -200,19 +200,21 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="ooq-81-oIw"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Robert Casey" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qac-zQ-bzQ">
-                                <rect key="frame" x="160" y="201" width="116" height="34"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Robert Casey Jr. contact" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZNq-aV-yS3">
+                                <rect key="frame" x="95" y="134" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6dc-yk-AO3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="M0H-eW-Koy"/>
                     <connections>
-                        <outlet property="robertCasey" destination="qac-zQ-bzQ" id="4Gx-7Q-Pcd"/>
+                        <outlet property="robertCasey" destination="ZNq-aV-yS3" id="jxy-8q-aXG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T27-to-DLn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -881,6 +883,9 @@ CiAgICAgICAgICAgICAgIAoKA
     </inferredMetricsTieBreakers>
     <resources>
         <image name="camera.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
