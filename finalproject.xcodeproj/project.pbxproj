@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C070FDD268E33450022FFFB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C070FDC268E33450022FFFB /* HomeViewController.swift */; };
+		7C070FDF268E34000022FFFB /* HelpHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C070FDE268E34000022FFFB /* HelpHome.swift */; };
 		7CC16F8B268E1C30006F9F49 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC16F8A268E1C30006F9F49 /* CameraViewController.swift */; };
 		A82F55F6268BA004008F236E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F55F5268BA004008F236E /* AppDelegate.swift */; };
 		A82F55F8268BA004008F236E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F55F7268BA004008F236E /* SceneDelegate.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C070FDC268E33450022FFFB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7C070FDE268E34000022FFFB /* HelpHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpHome.swift; sourceTree = "<group>"; };
 		7CC16F8A268E1C30006F9F49 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A82F55F2268BA004008F236E /* finalproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82F55F5268BA004008F236E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				A82F55F7268BA004008F236E /* SceneDelegate.swift */,
 				A82F55F9268BA004008F236E /* ViewController.swift */,
 				A82F55FB268BA004008F236E /* Main.storyboard */,
+				7C070FDC268E33450022FFFB /* HomeViewController.swift */,
+				7C070FDE268E34000022FFFB /* HelpHome.swift */,
 				7CC16F8A268E1C30006F9F49 /* CameraViewController.swift */,
 				D17149FF268CB5520047A5C7 /* Storyboard.storyboard */,
 				A82F5663268E0F0D008F236E /* Alarm sound effects - modern alarm 1.mp3 */,
@@ -269,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C070FDD268E33450022FFFB /* HomeViewController.swift in Sources */,
+				7C070FDF268E34000022FFFB /* HelpHome.swift in Sources */,
 				A82F55FA268BA004008F236E /* ViewController.swift in Sources */,
 				7CC16F8B268E1C30006F9F49 /* CameraViewController.swift in Sources */,
 				A82F55F6268BA004008F236E /* AppDelegate.swift in Sources */,
