@@ -55,6 +55,23 @@ class ViewController: UIViewController {
     }
     }
     
-
+    @IBAction func stop(_ sender: UIButton) {
+        let selectedInstrument = sender.tag
+        switch selectedInstrument {
+        case 2:
+            let pathtoSound = Bundle.main.path(forResource: "Alarm sound effects - modern alarm 1", ofType: "mp3")!
+            let url = URL(fileURLWithPath: pathtoSound)
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf : url)
+                audioPlayer?.stop()
+            } catch {
+                
+            }
+        
+        default:
+            return
+    }
+    }
+    
 
 }
