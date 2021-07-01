@@ -9,7 +9,10 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
+        
+        var imagePicker = UIImagePickerController ()
 
+    
     var audioPlayer: AVAudioPlayer?
     
     override func viewDidLoad() {
@@ -17,6 +20,22 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     @IBAction func instrumentTapped(_ sender: UIButton) {
         let selectedInstrument = sender.tag
         switch selectedInstrument {
@@ -36,5 +55,6 @@ class ViewController: UIViewController {
     }
     }
     
-}
 
+
+}

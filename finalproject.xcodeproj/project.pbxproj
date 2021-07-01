@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CC16F8B268E1C30006F9F49 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC16F8A268E1C30006F9F49 /* CameraViewController.swift */; };
 		A82F55F6268BA004008F236E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F55F5268BA004008F236E /* AppDelegate.swift */; };
 		A82F55F8268BA004008F236E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F55F7268BA004008F236E /* SceneDelegate.swift */; };
 		A82F55FA268BA004008F236E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F55F9268BA004008F236E /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CC16F8A268E1C30006F9F49 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A82F55F2268BA004008F236E /* finalproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82F55F5268BA004008F236E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A82F55F7268BA004008F236E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				A82F55F7268BA004008F236E /* SceneDelegate.swift */,
 				A82F55F9268BA004008F236E /* ViewController.swift */,
 				A82F55FB268BA004008F236E /* Main.storyboard */,
+				7CC16F8A268E1C30006F9F49 /* CameraViewController.swift */,
 				D17149FF268CB5520047A5C7 /* Storyboard.storyboard */,
 				A82F5663268E0F0D008F236E /* Alarm sound effects - modern alarm 1.mp3 */,
 				A82F55FE268BA005008F236E /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82F55FA268BA004008F236E /* ViewController.swift in Sources */,
+				7CC16F8B268E1C30006F9F49 /* CameraViewController.swift in Sources */,
 				A82F55F6268BA004008F236E /* AppDelegate.swift in Sources */,
 				A82F55F8268BA004008F236E /* SceneDelegate.swift in Sources */,
 			);
