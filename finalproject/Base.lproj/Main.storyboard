@@ -192,6 +192,14 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVP-NQ-TKX">
+                                <rect key="frame" x="191" y="325" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ooq-81-oIw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6dc-yk-AO3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -860,7 +868,7 @@ CiAgICAgICAgICAgICAgIAoKA
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wGS-6D-4fO"/>
+        <segue reference="ooq-81-oIw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="camera.circle.fill" catalog="system" width="128" height="121"/>
