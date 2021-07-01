@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 extension NSAttributedString {
     static func makeHyperlink(for path: String, in string: String, as substring: String) -> NSAttributedString {
         let nsString = NSString(string: string)
